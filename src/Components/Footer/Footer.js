@@ -40,20 +40,10 @@ function Footer() {
                     </div>
                 </div>
                 {/* Column 4 */}
-                <div className='developers'>
-                    <h6 className='title-developers'>developers</h6>
-                    <ul className='list-unstyled'>
-                        <li className='neil'>Neil</li>
-                        <li className='gustavo'>Gustavo</li>
-                        <li className='brandon'>Brandon</li>
-                        <li className='crystal'>Crystal</li> 
-                        <li className='caitlyn'>Caitlyn</li> 
-                    </ul>
-                </div>
                 {/* Footer Bottom */ }
                 <div className='footer-bottom'>
                     <p className='text-xs-center'>
-                        Copyright &copy;{new Date().getFullYear()} All Rights Reserved | made with &#9829; by Developers of Ravers Outlet (RZO)
+                        Copyright &copy;{new Date().getFullYear()} All Rights Reserved | made with &#9829; by Developers Puresoft (Puresoft)
                     </p>
                 </div>
                 
