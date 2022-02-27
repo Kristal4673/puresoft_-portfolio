@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de61a3e5.css",
+    "main.js": "/static/js/main.26d27e1b.js",
+    "static/media/Screen Shot 2022-02-26 at 1.26.33 PM.png": "/static/media/Screen Shot 2022-02-26 at 1.26.33 PM.d19d300227c8ec970758.png",
+    "static/media/Screen Shot 2022-02-26 at 1.27.37 PM.png": "/static/media/Screen Shot 2022-02-26 at 1.27.37 PM.ca1a4d8859f01ab8d567.png",
+    "static/media/Screen Shot 2022-02-26 at 1.29.18 PM.png": "/static/media/Screen Shot 2022-02-26 at 1.29.18 PM.2278268baa32be24a7a5.png",
+    "static/media/Crystal Resume 2022.pdf": "/static/media/Crystal Resume 2022.6c079462cf13f90c29a2.pdf",
+    "static/media/Screen Shot 2022-02-26 at 1.30.33 PM.png": "/static/media/Screen Shot 2022-02-26 at 1.30.33 PM.1c90a97a7c6d931187cd.png",
+    "static/media/CrystalSoto.jpeg": "/static/media/CrystalSoto.ffef7c6a530d688185b9.jpeg",
+    "index.html": "/index.html",
+    "main.de61a3e5.css.map": "/static/css/main.de61a3e5.css.map",
+    "main.26d27e1b.js.map": "/static/js/main.26d27e1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de61a3e5.css",
+    "static/js/main.26d27e1b.js"
+  ]
+}
