@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+
+}
+.section-about{
+    margin:auto; 
+    padding:auto; 
+    border:1px; 
+    font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+

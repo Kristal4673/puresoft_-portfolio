@@ -5,7 +5,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer section'>
             <div className='container'>
                 <div className='row'>
                     {/* Column 1 */}
