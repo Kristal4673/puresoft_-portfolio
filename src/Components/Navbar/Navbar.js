@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import Resume from "./Resume/Crystal Resume 2022.pdf";
 
 import "./Navbar.css"
 
@@ -10,17 +11,17 @@ function Navbar() {
   const Close = () => setClick(false);
 
   return (
-    <div className='section'>
+    <div className="section">
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            PureSoft Portfollio 
+            PureSoft Portfollio
             <i className="fa fa-code"></i>
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink
+              <a
                 exact
                 to="/"
                 activeClassName="active"
@@ -28,45 +29,60 @@ function Navbar() {
                 onClick={click ? handleClick : null}
               >
                 Home
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
+              <a
                 exact
                 to="/about"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
+                href="#about"
               >
                 About
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
+              <a
                 exact
-                to="/blog"
+                to="/projects"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
+                href="#projects"
               >
                 Projects
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
+              <a
                 exact
                 to="/contact"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
+                href="#me"
               >
                 Contact Us
-              </NavLink>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                exact
+                to="/resume"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+                href={Resume}
+              >
+                Resume
+              </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-                      <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
-                      MENU
+            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+            MENU
           </div>
         </div>
       </nav>

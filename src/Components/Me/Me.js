@@ -3,7 +3,7 @@ import img from "./Img/CrystalSoto.jpeg";
 
 const Me = () => {
   return (
-    <div className="section-me">
+    <div className="section-me" id="me">
       <div>
         <strong>Contact</strong>
         <img src={img} />

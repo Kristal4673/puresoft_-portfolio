@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='section'>
+    <div className='section-about' id ="about">
       <strong>About</strong>
       <div className='section-about'>
         Owner of Puresoft dba and looking to expand and lend my expertise in the
