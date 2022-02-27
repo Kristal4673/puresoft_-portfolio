@@ -10,12 +10,12 @@ function Footer() {
                 <div className='row'>
                     {/* Column 1 */}
                     <div className='col-md-4 col-sm-4'>
-                        <h6 className='title-catelgories'>categories</h6>
+                        <h6 className='title-catelgories'>Sections</h6>
                         <ul className='list-unstyled'>
-                            <li>Shirts</li>
-                            <li>Pants</li>
-                            <li>Shoes</li>
-                            <li>Accessories</li>   
+                            <li>About</li>
+                            <li>Projects</li>
+                            <li>Contact</li>
+                            <li>Resume</li>   
                         </ul>
                     </div>
                     {/* Column 2 */}

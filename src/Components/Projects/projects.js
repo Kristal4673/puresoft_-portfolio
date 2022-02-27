@@ -8,7 +8,7 @@ import './Projects.css'
 
 const Project = () => {
   return (
-    <div className="section-projects">
+    <div className="section-projects" id="projects">
       <strong> Projects</strong>
       <div>
         <a href="https://lux-rentals.herokuapp.com/">
