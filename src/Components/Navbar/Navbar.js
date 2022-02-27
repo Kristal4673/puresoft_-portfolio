@@ -10,7 +10,7 @@ function Navbar() {
   const Close = () => setClick(false);
 
   return (
-    <div>
+    <div className='section'>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
@@ -49,7 +49,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Blog
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
