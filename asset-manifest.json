@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/%7Bpuresoft_portfolio%7D/static/css/main.de61a3e5.css",
+    "main.js": "/%7Bpuresoft_portfolio%7D/static/js/main.87745d4d.js",
+    "static/media/Screen Shot 2022-02-26 at 1.26.33 PM.png": "/%7Bpuresoft_portfolio%7D/static/media/Screen Shot 2022-02-26 at 1.26.33 PM.d19d300227c8ec970758.png",
+    "static/media/Screen Shot 2022-02-26 at 1.27.37 PM.png": "/%7Bpuresoft_portfolio%7D/static/media/Screen Shot 2022-02-26 at 1.27.37 PM.ca1a4d8859f01ab8d567.png",
+    "static/media/Screen Shot 2022-02-26 at 1.29.18 PM.png": "/%7Bpuresoft_portfolio%7D/static/media/Screen Shot 2022-02-26 at 1.29.18 PM.2278268baa32be24a7a5.png",
+    "static/media/Crystal Resume 2022.pdf": "/%7Bpuresoft_portfolio%7D/static/media/Crystal Resume 2022.6c079462cf13f90c29a2.pdf",
+    "static/media/Screen Shot 2022-02-26 at 1.30.33 PM.png": "/%7Bpuresoft_portfolio%7D/static/media/Screen Shot 2022-02-26 at 1.30.33 PM.1c90a97a7c6d931187cd.png",
+    "static/media/CrystalSoto.jpeg": "/%7Bpuresoft_portfolio%7D/static/media/CrystalSoto.ffef7c6a530d688185b9.jpeg",
+    "index.html": "/%7Bpuresoft_portfolio%7D/index.html",
+    "main.de61a3e5.css.map": "/%7Bpuresoft_portfolio%7D/static/css/main.de61a3e5.css.map",
+    "main.87745d4d.js.map": "/%7Bpuresoft_portfolio%7D/static/js/main.87745d4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de61a3e5.css",
+    "static/js/main.87745d4d.js"
+  ]
+}
